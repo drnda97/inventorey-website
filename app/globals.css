@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: theme(colors.ground);
+  color: theme(colors.ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: theme(colors.ochre); color: theme(colors.ink); }
+:focus-visible { outline: 2px solid theme(colors.accent); outline-offset: 3px; }
+
+summary { list-style: none; cursor: pointer; }
+summary::-webkit-details-marker { display: none; }
+details[open] .plus { transform: rotate(45deg); }
