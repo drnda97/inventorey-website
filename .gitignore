@@ -41,3 +41,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# design source files (local only)
+*.zip
+/0962c4c95ff0a2c7e3c36280b27b5205.webp

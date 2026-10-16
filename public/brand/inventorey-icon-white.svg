@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="248 76 316 316" role="img" aria-label="Inventorey">
+  <title>Inventorey</title>
+  <defs><mask id="m-white" maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="500"><rect width="900" height="500" fill="white"/><path d="M405 334 L405 236 L509 189" fill="none" stroke="black" stroke-width="30" stroke-linejoin="miter"/><path d="M550 163 L519 204 L499 159 Z" fill="black" stroke="black" stroke-width="10" stroke-linejoin="round"/></mask></defs>
+  <g mask="url(#m-white)"><path d="M306 175 L268 160 L268 330 L405 383 L543 330 L543 172" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M300 120 L405 88 L510 120 L510 141 L405 109 L300 141 Z" fill="#FFFFFF"/>
+    <path d="M405 148 L488 188 L405 228 L322 188 Z" fill="#FFFFFF" fill-opacity=".45"/><path d="M322 188 L405 228 L405 320 L322 280 Z" fill="#FFFFFF" fill-opacity=".72"/><path d="M405 228 L488 188 L488 280 L405 320 Z" fill="#FFFFFF"/>
+  </g>
+  <path d="M405 334 L405 236 L509 189" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linejoin="miter"/><path d="M550 163 L519 204 L499 159 Z" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="204 32 404 404" role="img" aria-label="Inventorey">
+  <title>Inventorey</title>
+  <rect x="204" y="32" width="404" height="404" rx="88.88" fill="#16293C"/>
+  <path d="M306 175 L268 160 L268 330 L405 383 L543 330 L543 172" fill="none" stroke="#F1F0EC" stroke-width="15" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M300 120 L405 88 L510 120 L510 141 L405 109 L300 141 Z" fill="#F1F0EC"/>
+  <path d="M405 148 L488 188 L405 228 L322 188 Z" fill="#CFD8E0"/><path d="M322 188 L405 228 L405 320 L322 280 Z" fill="#A4392B"/><path d="M405 228 L488 188 L488 280 L405 320 Z" fill="#6B7885"/>
+  <path d="M405 334 L405 236 L509 189" fill="none" stroke="#C09B4A" stroke-width="20" stroke-linejoin="miter"/><path d="M550 163 L519 204 L499 159 Z" fill="#C09B4A"/>
+</svg>

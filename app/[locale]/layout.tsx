@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import { locales, type Locale, content } from "@/i18n/content";
+import ScrollReveal from "@/components/ScrollReveal";
 import "../globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin", "latin-ext"], weight: ["400", "500", "600", "700"] });
@@ -26,8 +27,15 @@ export default function LocaleLayout({
   params: { locale: Locale };
 }) {
   return (
-    <html lang={params.locale}>
-      <body className={dmSans.className}>{children}</body>
+    <html lang={params.locale} suppressHydrationWarning>
+      <head>
+        {/* Marks JS as available before first paint, so scroll-reveal content only hides when it can reappear. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
+      <body className={dmSans.className}>
+        {children}
+        <ScrollReveal />
+      </body>
     </html>
   );
 }
